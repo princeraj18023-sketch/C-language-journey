@@ -2,7 +2,7 @@
 
 int main()
 {
-    printf("\n\n********Decision Making in C********\n");
+    printf("\n\n********Decision Making in C********\n\n");
     int age;
     printf("Enter Your age\n");
     scanf("%d", &age);
@@ -18,5 +18,9 @@ int main()
     {
         printf("Adult Mode: Full access, no time restrictions.\n");
     }
+
+    
+    int i3 = age>5?100:300;
+    printf("%d", i3);
     return 0;
 }
